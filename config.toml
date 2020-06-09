@@ -1,0 +1,68 @@
+baseURL = "https://mmagalha.me"
+title = "mmagalha's Blog"
+copyright = "Copyright © 2008–2020, Marcos Magalhães; all rights reserved."
+paginate = 2
+languageCode = "pt_BR"
+DefaultContentLanguage = "pt_BR"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-XXXX"
+DisqusShortname = ""
+theme = "hugo-theme-chunky-poster"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "sobre"
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 0
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[params]
+  author = "Marcos Magalhães"
+  description = "Marcos Magalhães, ou tão somente mmagalha"
+  homepageImage = "/images/homepage-image.png"
+  share = true
+  showLanguageSwitcher = false
+
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    rss = true
+    email = "mmagalha@gmail.com"
+    facebook = "https://facebook.com/mmagalha"
+    twitter = "https://twitter.com/mmagalha"
+    linkedin = "https://linkedin.com/in/mmagalha"
+    instagram = "https://instagram.com/mmagalha"
+    github = "https://github.com/mmagalha"
+
+  [params.prismJS]
+    enable = true
+    theme = ""
+
+  [params.commento]
+    enable = true
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
